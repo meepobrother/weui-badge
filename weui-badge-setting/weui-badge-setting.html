@@ -1,0 +1,12 @@
+<div class="weui-cells weui-cells_form" [class.focus]="props.focus">
+    <div class="weui-cell">
+        <div class="weui-cell__hd">
+            <label class="weui-label">显示数字</label>
+        </div>
+        <div class="weui-cell__bd">
+            <input class="weui-input" type="text" placeholder="text" [(ngModel)]="props.text">
+        </div>
+    </div>
+</div>
+
+<ng-container *ngComponent="props.children;preview: false;"></ng-container>
