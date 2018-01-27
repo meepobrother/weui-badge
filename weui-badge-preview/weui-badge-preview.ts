@@ -8,6 +8,7 @@ export interface WeuiBadgeProps {
     style: { [key: string]: string };
     focus: boolean;
     children: any[];
+    dot: boolean;
 }
 @Component({
     selector: 'weui-badge-preview',

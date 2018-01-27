@@ -1,1 +1,1 @@
-<span class="weui-badge" [ngStyle]="props.style">{{props.text}}</span>
+<span class="weui-badge" [class.weui-badge_dot]="props.dot" [ngStyle]="props.style">{{props.dot ? '' : props.text}}</span>
